@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header";
+import Body from "./components/body";
 
 function App() {
   return (
     <>
-      <h1 className="text-xl font-bold">Hello css with tailwing</h1>
+      <Header></Header>
+      <Body></Body>
     </>
   );
 }
